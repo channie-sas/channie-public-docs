@@ -1,6 +1,6 @@
 # Channie Privacy Policy
 
-Effective date: August 16, 2026
+Effective date: September 17, 2026
 
 This Privacy Policy explains how Channie ("Channie," "the bot," "we," or "us") handles information when you install or use the Channie Discord application.
 
@@ -12,6 +12,7 @@ Channie may process the following information when it is needed for a feature yo
 - Discord account information made available to the bot, such as username, display name, avatar, and server membership or permissions relevant to a request.
 - Commands, button and menu interactions, and message text or attachments sent as recognized `c`-prefixed commands, in configured feature channels, or during an active game or user session.
 - Game and account state, including cards, inventory, credits, quests, settings, cooldowns, marketplace activity, rewards, event participation, and moderation or approval records.
+- Optional profile information you choose to enter, including age, pronouns, MBTI, zodiac sign, collecting interests, hobbies, and biography text. These details are not required to play.
 - Card and DTI image submissions and the information required to review or display them.
 - Discord-to-Minecraft link information and messages sent in an administrator-configured bridge channel.
 - Limited technical and operational information needed to secure, diagnose, and maintain the service.
@@ -29,6 +30,12 @@ We use information to:
 - relay chat between a configured Discord channel and a linked Minecraft server when a server administrator enables that feature.
 
 Message content is not sold or used for advertising or behavioral profiling.
+
+## Profiles and visibility
+
+Custom profiles can display the optional details listed above to other users. Profile data is associated with your Discord account rather than a single server, so published details may be viewed in other servers using Channie. Game profiles may also show your display name, avatar, progression, card counts, rewards, titles, and Discord or server join dates. Activity timestamps are processed for service functionality.
+
+Do not put contact information, passwords, health information, or other sensitive personal information in profile fields. Messages used to edit a profile are visible to people who can read the channel where you send them, regardless of profile visibility settings. Hiding or clearing a saved field does not recall older Discord messages, screenshots, other people's copies, or backups. To request correction or deletion, privately contact the support server owner using the contact details below.
 
 ## Storage and sharing
 

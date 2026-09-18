@@ -1,6 +1,6 @@
 # Channie Terms of Service
 
-Effective date: August 16, 2026
+Effective date: September 17, 2026
 
 These Terms of Service ("Terms") govern your use of the Channie Discord application. By installing or using Channie, you agree to these Terms and to Discord's applicable terms and policies.
 
@@ -26,7 +26,7 @@ We may reject or remove submissions that violate these Terms, Discord policy, se
 
 ## Virtual items and game state
 
-Cards, credits, items, rewards, rankings, and other Channie game data are virtual features with no cash value. They may not be sold for real money unless we expressly authorize it. We may correct duplicated, corrupted, fraudulent, or improperly awarded game state to preserve service integrity.
+Cards, credits, items, rewards, rankings, and other Channie game data are virtual features with no cash value and cannot be redeemed for cash or real-world prizes. Selling, buying, or exchanging them for real money or anything of real-world monetary value is prohibited, including through third-party services or linked games. Chance-based games use virtual credits only and do not offer cash payouts. We may correct duplicated, corrupted, fraudulent, or improperly awarded game state to preserve service integrity.
 
 ## Availability and changes
 
