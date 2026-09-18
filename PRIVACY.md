@@ -14,6 +14,7 @@ Channie may process the following information when it is needed for a feature yo
 - Game and account state, including cards, inventory, credits, quests, settings, cooldowns, marketplace activity, rewards, event participation, and moderation or approval records.
 - Optional profile information you choose to enter, including age, pronouns, MBTI, zodiac sign, collecting interests, hobbies, and biography text. These details are not required to play.
 - Card and DTI image submissions and the information required to review or display them.
+- DTI participation and voting records linked to Discord accounts. DTI is intended for the operator's streaming community; it is not an anonymous submission or voting service. Omitting a name from an entry does not guarantee anonymity.
 - Discord-to-Minecraft link information and messages sent in an administrator-configured bridge channel.
 - Limited technical and operational information needed to secure, diagnose, and maintain the service.
 
@@ -39,13 +40,13 @@ Do not put contact information, passwords, health information, or other sensitiv
 
 ## Storage and sharing
 
-Channie stores persistent user and game state in PostgreSQL. Some uploads may be held temporarily while they are processed or reviewed. Completed or expired sessions and temporary files are removed through the service's normal cleanup processes.
+Channie stores persistent user and game state in PostgreSQL. Uploads can be held temporarily during processing or review. Approved card images are retained as service assets, and DTI images may be copied to Discord messages or cache threads and archived after an event. Some completed or expired session records remain stored after gameplay ends; ending a session or archiving a thread does not itself delete its data. Temporary-file and record cleanup varies by feature and is not a universal automatic deletion guarantee.
 
 When the Discord-to-Minecraft bridge is enabled by a server administrator, messages from the configured Discord channel are transmitted to the linked Minecraft server. Relayed messages may appear in the Minecraft server console and its normal server logs. Information may also be processed by Discord, hosting, database, backup, and infrastructure providers as needed to operate the service. We do not sell personal information.
 
 ## Retention and deletion
 
-We retain information for as long as it is reasonably needed to operate Channie, preserve game and transaction integrity, secure the service, resolve disputes, or comply with legal obligations. Removed data may remain in restricted backups or automatically rotated operational logs until those copies expire through their normal lifecycle.
+We retain information only while needed for the stated service functions, subject to applicable deletion requirements. Retention differs between account state, transaction records, submissions, session records, logs, and backups. Backup rotation does not necessarily remove every stored asset copy, and there is currently no single automatic expiry period covering all data. A deletion request therefore requires a review of the relevant records and copies; it must not be treated as complete solely because an account field or live message was removed. We do not treat game integrity or dispute handling as a blanket exception to required deletion. Information that must be retained by law is handled according to those requirements.
 
 To request access to or deletion of Channie data associated with your Discord account, join the [Channie Test Lab support server](https://discord.gg/MQS8nmeSCJ) and privately message the server owner. Do not post your Discord ID or other sensitive information in a public channel. We may ask you to verify control of the relevant Discord account before completing a request.
 
